@@ -3,7 +3,7 @@ TOOLCHAIN_URL := https://downloadmirror.intel.com/25470/eng/arc-toolchain-linux6
 TOOLCHAIN     := $(notdir $(TOOLCHAIN_URL))
 CORELIBS_URL  ?= https://github.com/01org/corelibs-arduino101/archive/master.zip
 CORELIBS_ZIP  := $(notdir $(CORELIBS_URL))
-ARDUINO_URL   := https://github.com/arduino/Arduino/archive/1.6.9.zip
+ARDUINO_URL   := https://github.com/arduino/Arduino/archive/1.8.2.zip
 ARDUINO_ZIP   := $(notdir $(ARDUINO_URL))
 
 help:
